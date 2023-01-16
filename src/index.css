@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600&display=swap');
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #000;
+}
+
+h4{
+  font-size: .9rem;
+}
+*{
+  color: #000;
+}
+body {
+  font-family: 'DynaPuff', cursive;
+  margin: 0; padding: 0;
+  background-color: #fafafa;
+}
+input{
+  background-color: transparent !important;
+  color: #000 !important;
+}
+a , a:hover
+{
+  color: #fff;
+  text-decoration: none;
+}
+.curror{
+  cursor: pointer;
+  position: relative;
+}

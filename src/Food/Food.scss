@@ -1,0 +1,40 @@
+.box{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .rank{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 9999;
+        transition: all 1s;
+    }
+    &:hover .rank{
+        top: 100%;
+        z-index: 9999;
+    }
+    &:hover .item{
+        opacity: 1;
+    }
+    &:hover img{
+        transform: scale(1.1);
+    }
+    img{
+        transition: all .6s .2s;
+    }
+    .item{
+        position: absolute;
+        top: 0;
+        right:0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.8);
+        opacity: 0;
+        transition: all .6s;
+        h5{
+            font-size: .9rem;
+        }
+    }
+}
